@@ -1,0 +1,9 @@
+input{
+			border:1px solid blue;
+		}
+		input:focus{
+			background-color: #999999;
+		}
+		fieldset{
+			margin: 2% 1%;
+		}
