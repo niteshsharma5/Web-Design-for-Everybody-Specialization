@@ -1,2 +1,6 @@
 # Web-Design-for-Everybody-Specialization
-I have created my first project just after enrolling into coursera course for HTML5 that looks a bit ugly but that's what I am supposed to build to earn certificate for this project.
+This can really prove to be a very good course for an absolute beginner entering into the world of Web Development.
+Here are the links to the courses-
+1)Intro to HTML5- https://www.coursera.org/learn/html/home/welcome
+2)Intro to CSS3- https://www.coursera.org/learn/introcss/home/welcome
+3)Interactivity with Javascript- https://www.coursera.org/learn/javascript/home/welcome
