@@ -2,46 +2,112 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Nitesh Sharma</title>
   </head>
   <body>
     <header>
-  	<h1>Nitesh Sharma</h1>
-  	<nav>
-  		<a href="https://codechef.com/users/niteshsharma5">One</a>
-  		<a href="https://codeforces.com">Two</a>
-  		<a href="https://facebook.com">Three</a>
-  		<a href="https://youtube.com">Watch Natasha</a>
-  	</nav>
+      <nav class="nav">
+        <div class="nav__brand">Nitesh Sharma</div>
+
+        <div>
+          <a class="nav__items" href="https://codechef.com/users/niteshsharma5">One</a>
+          <a class="nav__items" href="https://codeforces.com">Two</a>
+          <a class="nav__items" href="https://facebook.com">Three</a>
+          <a class="nav__items" href="https://youtube.com">Watch Natasha</a><a class="nav__items" href="https://codechef.com/users/niteshsharma5">One</a>
+          <a class="nav__items" href="https://codeforces.com">Two</a>
+          <a class="nav__items" href="https://facebook.com">Three</a>
+          <a class="nav__btn" href="https://youtube.com">Watch Natasha</a>
+        </div>
+      </nav>
   </header>
-  	<section>
-  	    <h2>Favourite Food</h2>
-  	    <ul>
-  		  <li>kheer</li>
-  		  <li>jalebi</li>
-  		  <li>halwa</li>
-  		  <li>bangali mithai</li>
+
+  <main class="main__content">
+    <div class="row">
+      <section class="col-4 list__section">
+        <h2>Favourite Food</h2>
+        <ul class="list__items">
+          <li class="list__item">kheer</li>
+          <li class="list__item">jalebi</li>
+          <li class="list__item">halwa</li>
+          <li class="list__item">bangali mithai</li>
         </ul>
-    </section>
-    <section>
-    	<h2>Achievements</h2>
-      <label for="file">Progress for this course(100%) </label>
-      <progress  id="file" value="100" max="100"></progress></br>
-      <label for="file1">Progress in the Specialization capstone(20%) </label>
-      <progress id="file1" value="20" max="100"></progress></br>
-      <label for="file2">Progress in life goals(32%) </label>
-      <progress id="file2" value="32" max="100"></progress>
-    </section>
-    <section>
-      <!-- Some information about me -->
-      <h2>More about Me</h2>
-      <details>
-        <summary>My Childhood</summary>
-        <p>I am Nitesh Sharma. I live in Jaipur and my aim is to become a Cricketer since childhood. Although I started pursuing Engineering under parental pressure  but still my ultimate goal is to play for India one day in blue jersey.</p>
-      </details>
-    </section>
-    <footer>
-    <img src="http://www.intro-webdesign.com/images/newlogo.png">This page was created by Nitesh Sharma &amp; Colleen van Lent. To learn more about web design, visit <a href="http://intro-webdesign.com">Intro to Web Design</a>
+      </section>
+      
+      <section class="col-5 progress__section">
+        <h2 class="progress_heading">Achievements</h2>
+        
+        <div class="progress__percent">
+          <label for="file">Progress for this course(100%) </label>
+          <progress  id="file" value="100" max="100"></progress></br>
+        </div>
+        
+        <div class="progress__percent">
+          <label for="file1">Progress in the Specialization capstone(20%) </label>
+          <progress id="file1" value="20" max="100"></progress>
+        </div>
+        
+        <div class="progress__percent">
+          <label for="file2">Progress in life goals(32%) </label>
+          <progress id="file2" value="32" max="100"></progress>
+        </div>
+      </section>
+      
+      <section class="col-3 other__section">
+        <!-- Some information about me -->
+        <h2 class="other__heading">More about Me</h2>
+        <details>
+          <summary>My Childhood</summary>
+          <p>I am Nitesh Sharma. I live in Jaipur and my aim is to become a Cricketer since childhood. Although I started pursuing Engineering under parental pressure  but still my ultimate goal is to play for India one day in blue jersey.</p>
+        </details>
+      </section>
+    </div>
+
+    <div class="row">
+      <section class="col-4 list__section">
+        <h2>Favourite Food</h2>
+        <ul class="list__items">
+          <li class="list__item">kheer</li>
+          <li class="list__item">jalebi</li>
+          <li class="list__item">halwa</li>
+          <li class="list__item">bangali mithai</li>
+        </ul>
+      </section>
+      
+      <section class="col-5 progress__section">
+        <h2 class="progress_heading">Achievements</h2>
+        
+        <div class="progress__percent">
+          <label for="file">Progress for this course(100%) </label>
+          <progress  id="file" value="100" max="100"></progress></br>
+        </div>
+        
+        <div class="progress__percent">
+          <label for="file1">Progress in the Specialization capstone(20%) </label>
+          <progress id="file1" value="20" max="100"></progress>
+        </div>
+        
+        <div class="progress__percent">
+          <label for="file2">Progress in life goals(32%) </label>
+          <progress id="file2" value="32" max="100"></progress>
+        </div>
+      </section>
+      
+      <section class="col-3 other__section">
+        <!-- Some information about me -->
+        <h2 class="other__heading">More about Me</h2>
+        <details>
+          <summary>My Childhood</summary>
+          <p>I am Nitesh Sharma. I live in Jaipur and my aim is to become a Cricketer since childhood. Although I started pursuing Engineering under parental pressure  but still my ultimate goal is to play for India one day in blue jersey.</p>
+        </details>
+      </section>
+    </div>
+  </main>
+     
+  <footer class="footer">
+    <img class="footer__logo" src="http://www.intro-webdesign.com/images/newlogo.png">
+    <span class="footer__desc">This page was created by Nitesh Sharma &amp; Colleen van Lent. To learn more about web design, visit</span>
+    <a class="footer__link" href="http://intro-webdesign.com">Intro to Web Design</a>
   </footer>
   </body>
   </html>
